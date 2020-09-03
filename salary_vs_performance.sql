@@ -1,4 +1,5 @@
--- Create Two Tables
+DROP TABLE salary
+DROP TABLE performance
 CREATE TABLE salary (
 	us_state VARCHAR(25) PRIMARY KEY,
 	salary INT
@@ -9,9 +10,6 @@ CREATE TABLE performance (
 	at_or_above_basic INT,
 	at_or_above_proficient INT
 	);
-	
-DROP TABLE performance
-DROP TABLE salary
 	
 	-- Query to check successful load
 SELECT * FROM salary;
